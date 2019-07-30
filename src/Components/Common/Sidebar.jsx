@@ -47,22 +47,22 @@ class Sidebar extends React.Component{
 
             <ul style={{textAlign:'left'}}>
                <li>
-                  <Link to="/about">
+                  <Link to="/AboutMe/about">
                      <FontAwesomeIcon icon={ faUser }/> About Me
                   </Link>
                </li>
                <li>
-                  <Link to="/skills">
+                  <Link to="/AboutMe/skills">
                      <FontAwesomeIcon icon={ faBookOpen }/> Skills
                   </Link>
                </li>          
                <li>
-                  <Link to="/experience">
+                  <Link to="/AboutMe/experience">
                      <FontAwesomeIcon icon={ faBriefcase }/> Work Experience
                   </Link>
                </li>
                <li>
-                  <Link to="/resume">
+                  <Link to="/AboutMe/resume">
                      <FontAwesomeIcon icon={ faFileAlt }/> Resume
                   </Link>
                </li>    

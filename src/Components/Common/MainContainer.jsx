@@ -12,11 +12,11 @@ class MainContainer extends React.Component{
 
       return (
          <Switch>
-            <Route exact path="/" component={About} />
-            <Route exact path="/about" component={About} />
-            <Route path="/skills" component={Skills} />
-            <Route path="/experience" component={Experience} />
-            <Route path="/resume" component={Resume} />
+            <Route exact path="/AboutMe" component={About} />
+            <Route exact path="/AboutMe/about" component={About} />
+            <Route path="/AboutMe/skills" component={Skills} />
+            <Route path="/AboutMe/experience" component={Experience} />
+            <Route path="/AboutMe/resume" component={Resume} />
          </Switch>
       )
 
