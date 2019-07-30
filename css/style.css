@@ -1,0 +1,24 @@
+/*深->淺  
+    #17223b
+    #263859
+    #6b778d
+ */
+* {
+    font-family: Microsoft JhengHei;
+}
+.sidebar {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100vh;
+    width: 280px;
+    background-color: #17223b;
+    color: white;
+    text-align: center;
+}
+.main-wrapper {
+    background-color: #263859;    
+    margin-left: 280px;
+    height: 100vh;
+    color: white;
+}
